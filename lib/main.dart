@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:humanify_l10n_json/choose_file_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -52,6 +53,19 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return GetDirectoryPage();
+                    },
+                  ),
+                );
+              },
+              child: Text('Choose File page'),
             ),
           ],
         ),

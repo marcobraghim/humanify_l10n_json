@@ -1,8 +1,18 @@
 # humanify_l10n_json
 
-A new Flutter project.
+Help you to edit translation JSON files key based friendly.
 
 ## Getting Started
+
+This is a Desktop target project, at this very first momment we are developing
+only in macOS, you can help us testing and implementing on Linux and Windows.
+
+This project is targeting to be null-safety, maybe you need to run it by the
+following command (because it can be mixed).
+
+```flutter run --no-sound-null-safety -d macos```
+
+## Flutter Project
 
 This project is a starting point for a Flutter application.
 

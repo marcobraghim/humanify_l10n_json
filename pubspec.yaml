@@ -24,6 +24,18 @@ dependencies:
   flutter:
     sdk: flutter
 
+  #
+  # !!! Important !!!
+  # Use the link below to search packages specifics for Desktop
+  # https://pub.dev/flutter/packages?platform=macos
+  #
+  
+  # https://github.com/google/flutter-desktop-embedding/blob/master/plugins/file_selector/README.md
+  file_selector: ^0.7.0+2
+  file_selector_macos: ^0.0.1
+
+  shared_preferences: '>=0.5.12+4 <2.0.0'
+  path_provider: ^1.6.27
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
